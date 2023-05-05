@@ -1,0 +1,7 @@
+---
+applications:
+- name: SAPHWP1
+  host: SAPHWP1
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
